@@ -1,3 +1,16 @@
+// with using sqrt() function.
+/*
+import java.lang.Math;
+class Solution {
+    public int mySqrt(int x) {
+        int z = (int)Math.sqrt(x);
+       return z;
+    }
+}
+*/
+
+
+// without using sqrt() function!
 class Solution {
     public int mySqrt(int x) {
         long start = 0;
@@ -20,3 +33,5 @@ class Solution {
          return (int)start;
     }
 }
+
+
