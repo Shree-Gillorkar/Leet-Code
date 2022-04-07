@@ -37,8 +37,6 @@ class Solution {
                 maxHeap.offer(y-x);
             }
         }
-        if(maxHeap.size()==0)
-            return 0;
-        return maxHeap.poll();
+       return (maxHeap.size()==0)? 0 : maxHeap.poll();
     }
 }
